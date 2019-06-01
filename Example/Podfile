@@ -1,0 +1,12 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'SYZFileManager_Example' do
+  pod 'SYZFileManager', :path => '../'
+
+  target 'SYZFileManager_Tests' do
+    inherit! :search_paths
+
+  end
+end

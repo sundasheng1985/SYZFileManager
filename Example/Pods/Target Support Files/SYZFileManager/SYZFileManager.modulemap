@@ -1,0 +1,6 @@
+framework module SYZFileManager {
+  umbrella header "SYZFileManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

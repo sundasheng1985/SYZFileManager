@@ -1,0 +1,6 @@
+framework module Pods_SYZFileManager_Example {
+  umbrella header "Pods-SYZFileManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

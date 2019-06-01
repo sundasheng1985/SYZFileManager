@@ -1,0 +1,30 @@
+{
+  "name": "SYZFileManager",
+  "version": "0.1.0",
+  "summary": "A short description of SYZFileManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sundasheng1985/SYZFileManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sundasheng1985": "641569408@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/sundasheng1985/SYZFileManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SYZFileManager/Classes/**/*",
+  "dependencies": {
+    "SYZUIBasekit": [
+
+    ],
+    "SSZipArchive": [
+      "2.1.3"
+    ]
+  }
+}

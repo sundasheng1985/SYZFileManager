@@ -1,0 +1,1541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		023F3612459E064632069C277DDBC771 /* pwd2key.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DCFC74D1ED1CF22BF2C2A6BC55423BA /* pwd2key.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0588EF8291B7915D91A05B887DCB4F71 /* sha1.h in Headers */ = {isa = PBXBuildFile; fileRef = EC88D228D284372AF58302C313430DE4 /* sha1.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0910B142B83B1A6C4F471B3C29C03B7D /* brg_endian.h in Headers */ = {isa = PBXBuildFile; fileRef = 742A11A4E33BCA5EE67117E67C17EA64 /* brg_endian.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0AF6F235E6B563BC35BA3011AE882627 /* Pods-SYZFileManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 686B63FA75822FDE3B1E0A69A836E808 /* Pods-SYZFileManager_Tests-dummy.m */; };
+		11508780EBBA9B9C8283927A18D54E2D /* SYZDateEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E610C5EA3723D6236CF127382FD47C /* SYZDateEnum.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14AAA2FC9BCA9EC13CD022999D5E5A21 /* NSString+SYZString.h in Headers */ = {isa = PBXBuildFile; fileRef = 84079F80085B502CB4B0B72CBE30BB7B /* NSString+SYZString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17856BDFB0DEC85825848A45EE017B31 /* NSAttributedString+SYZAdditon.h in Headers */ = {isa = PBXBuildFile; fileRef = A6048EC866E05466D10FBC5B9BAD998C /* NSAttributedString+SYZAdditon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		195FC60BB6305E73340F422CFD579869 /* NSDate+SYZTimeStamp.h in Headers */ = {isa = PBXBuildFile; fileRef = 3410375E491127FF8236950D82421FA6 /* NSDate+SYZTimeStamp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19813FA3C6F665B0FCAD74A2EF771DDA /* prng.h in Headers */ = {isa = PBXBuildFile; fileRef = D42C2FD79CF75E62B9EDDE4CF902FD81 /* prng.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1A3C8BDA328BE03101F3A894F28156FB /* SYZFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 17C8B1730258A2A5FFA2E312A4CA60F4 /* SYZFileManager.m */; };
+		1DC1987AB60A38AC262DED780CD35C38 /* SYZFileManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD5034297532EB89239697DACFCD55B /* SYZFileManager-dummy.m */; };
+		1E25EDE48DC49735074CD05B50263DAC /* NSBundle+SYZBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F9FE74D7B968DE53816B8094183F41 /* NSBundle+SYZBundle.m */; };
+		20238593BC799BB7F7B78C7EECB01B77 /* SYZFileModuleName.m in Sources */ = {isa = PBXBuildFile; fileRef = E54C2639590A785D3EDF834A6493320F /* SYZFileModuleName.m */; };
+		214C70AB90177F7DB10CC0E7A2A45937 /* SYZUIBasekit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F76B1D5E31184131AC65AF5C3C2DB1A /* SYZUIBasekit.framework */; };
+		27E50C5A02EB4F7FA1DEC6EAC81BBAEF /* minishared.c in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F2648ACCA0FFED003531C0F317A34 /* minishared.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		282E91E191E3A12C6670EAF5C405AAE7 /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = D716B12EA860C6948AEE8B0A1F488F3E /* zip.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		29C6D37229F43A632B27C13F92AB7A02 /* aestab.c in Sources */ = {isa = PBXBuildFile; fileRef = 95DE928E9EA86BFB516FC69C17684286 /* aestab.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2CBDC01B9F015F4CE0B16CADF917A078 /* UIApplication+SYZFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 90599A95E2C15A9F116BB1A98DCC97EC /* UIApplication+SYZFoundation.m */; };
+		2D0A2F9C3C03C6D2C4D9A369D99EA8D9 /* SYZUIBasekit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DA8DE8EE224AB0E6607B88EA1BC049 /* SYZUIBasekit-dummy.m */; };
+		2F32D5F4EE43EB01D6A60AF2FA004B66 /* ioapi_mem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5CF3F9BBCBD6A6A3541D8EFAAC7523 /* ioapi_mem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		30709079A54AB3649C19D7C64390B14C /* NSTimer+SYZTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = C5538A006CE5E74B3CADCD7BAB9A52C3 /* NSTimer+SYZTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30FAF904DFFAAC6CC8CD3805496B3213 /* NSException+SYZException.h in Headers */ = {isa = PBXBuildFile; fileRef = EC2A89A4D6923B93B896236A64CB37AF /* NSException+SYZException.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		322228FD04CD7FE238699E4F0504845F /* NSURL+SYZURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD508907E554EAF4EF46CB41767DF16 /* NSURL+SYZURL.m */; };
+		3240F0215B4E0BD79422DD562F77CDF0 /* SYZFileManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83C01DD2ACD63053F7E6449117FDF0BD /* SYZFileManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3339A419C1A6131D07588FA49CA55644 /* SYZZipManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B831590F1C3E187CFDBE216C10F89930 /* SYZZipManager.m */; };
+		352BB4D8B41DD8265C7039F6044D56B9 /* NSSet+SYZFoundationAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 906359B74E4636CF05A7F67ECDEECE93 /* NSSet+SYZFoundationAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A2F48895A025BF2F932CA6C7D9348A2 /* SYZDate.h in Headers */ = {isa = PBXBuildFile; fileRef = AB9D9B559214F4001FAF2960E4DB257B /* SYZDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BA7A88E676FE380F0004E2483C4D4A2 /* hmac.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA21C1A20C0292E2BB936B5F6589A20 /* hmac.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3D1C9E5F4502CE8B2E9E840A6718D3BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6B38ED914E60CD66EB00BAF724339F /* Foundation.framework */; };
+		3E40127DC915CD5CE0F5AECA3466B8F8 /* SYZWeakObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CE2731B6B8A98DEAF81013B88B740A /* SYZWeakObject.m */; };
+		43326C1477D0479219BDC228F2920BA4 /* ioapi_mem.c in Sources */ = {isa = PBXBuildFile; fileRef = 569910F2F1DD9C49F315BE57836E767C /* ioapi_mem.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		458659C79B68A13264E2224DC942315C /* NSNumber+SYZNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 020DE93D9A102FCE3E463055A7FFA611 /* NSNumber+SYZNumber.m */; };
+		46EAEE3F13DE4A2604E2DAD9E17D4731 /* NSDate+SYZDate.m in Sources */ = {isa = PBXBuildFile; fileRef = C58A3C9845A63662C42474AC844E8B79 /* NSDate+SYZDate.m */; };
+		487631065009D34F074EE49891B0E39E /* NSException+SYZException.m in Sources */ = {isa = PBXBuildFile; fileRef = 029F077D9EF358AA9E2EDA5C9D07A0FD /* NSException+SYZException.m */; };
+		4AAF3135E6B5EB4F0288E8E61C8C320D /* SYZFileModuleName.h in Headers */ = {isa = PBXBuildFile; fileRef = 3271E59C3EFFCFAB6B12173DFF0F7798 /* SYZFileModuleName.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AEFB4BE293AC70F6B27E3AE2ED76268 /* NSData+SYZFoundationAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = A4399DE9417130A8A8D3D99D785810D1 /* NSData+SYZFoundationAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C7E8A45ED033C72A455D2120E7E6CAC /* SYZFoundationMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = EC5740CE8727974ED5BB2C47ADA84B6F /* SYZFoundationMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CDDB75E4021F5C203D8376D316248B6 /* SSZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = B9851345EC169D2E83C14253B3E06BDA /* SSZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D08A47E5BD3E3A925A981B8C8D8CCAE /* crypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C93E9BC58DC8DDF0EEEA22233BCC25A /* crypt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4D177470E1E8B49A622CB9AB98875964 /* UIApplication+SYZFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = D48AB783B113F58598C1E780BAB3BBF1 /* UIApplication+SYZFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D31BEB6FEBE08B043DB059158519C58 /* SYZWeakObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 09296FBC2634109F57E1A1E958D42E54 /* SYZWeakObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E54679D09EE7EF53479A00F4CC10A89 /* NSHTTPCookieStorage+SYZFoundationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C94B019D9B5235AC27DB7E97FA77BD /* NSHTTPCookieStorage+SYZFoundationAdd.m */; };
+		51AC44BC0D9F44C34CDAEA8427745DEB /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABF11714F6352211D29C1B37A3572E8 /* zip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		521EA23FED0588A2C62523458421415A /* NSString+SYZString.m in Sources */ = {isa = PBXBuildFile; fileRef = 48140D6D4ED06726F7D652A0655EC70C /* NSString+SYZString.m */; };
+		52774FE0D0AD252BC1D2043F632CD662 /* NSDate+SYZTimeStamp.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3BFC66271C0A41A9F77C1728BB3C0E /* NSDate+SYZTimeStamp.m */; };
+		53D0EC6BDE3DD425C243ADC0BF4CE211 /* NSDate+SYZDate.h in Headers */ = {isa = PBXBuildFile; fileRef = 25B0A3D28BC002FEE0B503330AB72DD0 /* NSDate+SYZDate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		553CEA4B892DF78071DF382CD665A474 /* SSZipCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F64E0604B2B6398E3ABAA462B976A9C /* SSZipCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55BEAE066A89AED478FF04F2BF5ACF03 /* fileenc.h in Headers */ = {isa = PBXBuildFile; fileRef = A559264200A2B239D2C15DED901BFEEF /* fileenc.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5ADE6BF7B8FB38A8B8F1F54246433E6C /* NSJSONSerialization+SYZUIBaseKitAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BC2AE1A3C471B1726837F837891D9CA /* NSJSONSerialization+SYZUIBaseKitAdd.m */; };
+		5BCA00380F55DD96324E9B8B5C3FEABC /* NSDateFormatter+SYZFoundationAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 733CB04A808E0036AAA172D6A7058470 /* NSDateFormatter+SYZFoundationAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CDC04261754C02BBA873F6873232758 /* NSMutableAttributedString+SYZAdditon.h in Headers */ = {isa = PBXBuildFile; fileRef = CDE3222CF0C28A00F8330CC62F11206D /* NSMutableAttributedString+SYZAdditon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		611918AF00F713909D3208BFEA8AD4E7 /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = FCA7392061508752791B9AEADA8E3FED /* aeskey.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		616390444CC9543435538B75107B12FB /* UIDevice+SYZDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = D1C9D8F26650F72AD5B64FF66DA06964 /* UIDevice+SYZDevice.m */; };
+		636E64F5188F94E4107C3C9513142324 /* aesopt.h in Headers */ = {isa = PBXBuildFile; fileRef = B33E473BB7293D39A8B80D762CB8E38A /* aesopt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		64D18632479DFBAECE2CE9B881D7FFD0 /* NSHTTPCookieStorage+SYZFoundationAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C6A2EF388E229F63925D6A50C1E87CA /* NSHTTPCookieStorage+SYZFoundationAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6911703D75FCF63E680FCB29CB8A3A32 /* aes_ni.c in Sources */ = {isa = PBXBuildFile; fileRef = A4AB7F82AA53164EF117F5132009D83A /* aes_ni.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		715D49EF112E23D4A363D49C1000BB04 /* NSScanner+SYZFoundationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B08A979153861D5536ED4B99C25ACBA6 /* NSScanner+SYZFoundationAdd.m */; };
+		73E3FAB128CCE2EE60FFA12B562BAF3A /* SYZTimerProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0325F2757D57DB7821A1515B8195A459 /* SYZTimerProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		750E4008531C0CA2D655691F7A20EE25 /* NSFileManager+SYZFoundationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D10C5184F39EA07D86A0EA95F00C8F /* NSFileManager+SYZFoundationAdd.m */; };
+		804848D7B44FE6FEE0F62D8D06A9A4CA /* NSObject+SYZObject.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFFB56BF5C942A6E9F8D40D01DB2461 /* NSObject+SYZObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8177CF7649B6B4306946A00B2D02C1F7 /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 6938878AA5E5EC9350DC6908DFC42786 /* unzip.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		83273B9390C73731DFDC3ED4B4E9D3D7 /* SYZTimerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7BC0D44D353E367F923F3512D21230 /* SYZTimerProxy.m */; };
+		841144FD00CE755F8EF2648A2E4C2FFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6B38ED914E60CD66EB00BAF724339F /* Foundation.framework */; };
+		85A7C625762189240D63345763895A51 /* minishared.h in Headers */ = {isa = PBXBuildFile; fileRef = E8F2646A61B11DBDDC0EABBCD3E40F09 /* minishared.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8635F437E9765346051EEC6CB6C773A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6B38ED914E60CD66EB00BAF724339F /* Foundation.framework */; };
+		8AA36E841390CB9BCDCDAB3733ABC80E /* NSURL+SYZURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 917E5AB9CC3E9B8F426A5E16CB5D368D /* NSURL+SYZURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D96EB96EA1A7D16DD6BF3FA8059E174 /* NSData+SYZFoundationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 95AD3ED4374E87600C33726482E5AD92 /* NSData+SYZFoundationAdd.m */; };
+		8DA3634F542EA3D3F7270DB60C2F94EF /* NSMutableArray+SYZMutableArrayAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = E80007E2AA633BB2A7243E0811613CE0 /* NSMutableArray+SYZMutableArrayAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F21BF1C1CFAF784D7F129C841030721 /* NSObject+SYZObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 53250AB59058CDF49974284F41016F43 /* NSObject+SYZObject.m */; };
+		9060590BF86D394060A81E929C720F32 /* hmac.c in Sources */ = {isa = PBXBuildFile; fileRef = EFCD7AFA046263CF481A1F993F9C555F /* hmac.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		91D875ED41B698AB4AA3A6771C71948A /* NSSet+SYZFoundationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = C5266BE7C87521ECA01DE3C4EF9B7BCC /* NSSet+SYZFoundationAdd.m */; };
+		93796836E1133B7E14067AB551DAF24D /* ZipArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F5FBDDCE53E8BFE404EC56E0A16D3A0 /* ZipArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93FBF13DCC034A7A3517FFA663DA9270 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6B38ED914E60CD66EB00BAF724339F /* Foundation.framework */; };
+		9BF6128F15DE0ADC5DDC5AFB7B4F0BE0 /* fileenc.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F5D8BC016F366B2AE8106D92075F0C9 /* fileenc.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9CC4CD57B9BCD633106AA553F288EC44 /* Pods-SYZFileManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B07264D679DEDABA656CDEF9BD81177 /* Pods-SYZFileManager_Example-dummy.m */; };
+		9DCBABF423DA83DF7F8E63A52D4D85F6 /* NSArray+SYZArrayAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4CC23D0E8B7768B2C3BAFC79451683 /* NSArray+SYZArrayAdd.m */; };
+		9E429E09AB760D516A65F1218D267651 /* SSZipArchive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 674FFC321F62A8A2A0B327CFEC5D436B /* SSZipArchive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E821A30182410044C1C69EC78868396 /* NSFileManager+SYZFoundationAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E4157DA3B457799F5733FAA9A8F1BC4 /* NSFileManager+SYZFoundationAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1395EB33032A88F29E1A5BD98F97322 /* Pods-SYZFileManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE9714F8087788A2A5AA7C27C5F7FC4 /* Pods-SYZFileManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1BD760561EF4BAE2065DA64820B1986 /* SYZUIBasekit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A83CCAF7A3B044783B0FC00D569393F /* SYZUIBasekit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADB1AB729CB387CEA0BF07ABC5BF3958 /* SYZZipManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D81E2742BB33739EF03BBA3D01344D4 /* SYZZipManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE6A13EA4A6A1C1DD5B1F31543DE8D29 /* NSAttributedString+SYZAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9EAF8A4CB274C21F6F12332EAD9A01 /* NSAttributedString+SYZAdditon.m */; };
+		B332166731EAB66F5677C926C6EC7059 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6B38ED914E60CD66EB00BAF724339F /* Foundation.framework */; };
+		BE50D99C7B16E801D8EC87AAB8DA2428 /* SYZFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A1135B53417AF91D41884B0FF7344A38 /* SYZFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE68E01B5D0E62A68F4FA9BDBBC8C625 /* ioapi_buf.h in Headers */ = {isa = PBXBuildFile; fileRef = 6912267B3CDE6CA4FC24D6EE503C251A /* ioapi_buf.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C0684FEFAE217B4F555384E8C1417946 /* SYZUIBasekit.h in Headers */ = {isa = PBXBuildFile; fileRef = E3C5FC2F6FBC503ADD9621B7C17E3703 /* SYZUIBasekit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1A6B9E4A29650B8C2E9041E9D5A97DC /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 45AC84A910708636325524A1E4C41E21 /* ioapi.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C40EA9F61A4ADAD61740EFDF97F44398 /* NSDictionary+SYZDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 508644E8CC7B9C7F0DA146F6E65EAFF7 /* NSDictionary+SYZDictionary.m */; };
+		C568F2676E766EDC3CB0FBDB74688E94 /* brg_types.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EAB41EBAE4B0A25A4BD8887A3B5F9D0 /* brg_types.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C60A15D38D23D5D23468E36BEBA9A3C4 /* NSJSONSerialization+SYZUIBaseKitAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = E34FA58B732694A77D8B26CD277F4EE7 /* NSJSONSerialization+SYZUIBaseKitAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C637983ADBB7BA5530BB24D237F35329 /* UIDevice+SYZDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 63CB115D5EE6B68E1D73F3065A05CBF6 /* UIDevice+SYZDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC9149D543BD1F92461CA3473A45D457 /* aestab.h in Headers */ = {isa = PBXBuildFile; fileRef = D716FA0340A74749CC6367F660F1A1D8 /* aestab.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D17B7345EB49AA59C1896A203D98EE9C /* NSDateFormatter+SYZFoundationAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 202C7519BBFE840E9543FAA6C23205BE /* NSDateFormatter+SYZFoundationAdd.m */; };
+		D21E72075E6F4A511C20AA5610E0DA5E /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A452DF68EFC8FE61E1A7AE4384E867 /* SSZipArchive.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D22DBA8AD79AD5E851DD444423F816FC /* NSMutableArray+SYZMutableArrayAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B98C70BF2CEE6C6FC192C56C12B467DB /* NSMutableArray+SYZMutableArrayAdd.m */; };
+		D29177A2D5445058599F1F0E8EE518DF /* NSTimer+SYZTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E54DDA1879E3D8A18C830BA478A42 /* NSTimer+SYZTimer.m */; };
+		D4D0B7EABC4CDA3E2E1495D33C131AF2 /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = FA56B5CF0F7F625E051B54F55BD11BB9 /* aes.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D870F93FCD0F4164085093A7867CC577 /* crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 09D4BB45371524CC84D6439CADE9E5F8 /* crypt.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D9CE8847EC94480C10D6BE331F817C02 /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BDCD98D127438AD71B1E513B9108F2F /* unzip.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DA368C3BD516346A1673E2614B8FF102 /* SYZFoundationShorthandMarcos.h in Headers */ = {isa = PBXBuildFile; fileRef = 88122D7DBAF2737631BAAC8EE0178B11 /* SYZFoundationShorthandMarcos.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB503C38382D8B7C074AEB7AFF5213C5 /* prng.c in Sources */ = {isa = PBXBuildFile; fileRef = D168D4260BE2EBACBFFC4BF9AB5B9FBA /* prng.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DDC14B4937C43CF815964817CD9E87FA /* NSDictionary+SYZDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 39FF431001C21B497DE8C38E0A2735FD /* NSDictionary+SYZDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE1A0F1EAC6F236A41540C979E618533 /* SSZipArchive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42710B872CC439F5DB1700C063C22020 /* SSZipArchive-dummy.m */; };
+		E2334456EF5955C4941671A6503BA0C0 /* NSNumber+SYZNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = DC86EFB40D9382BDB58BD887D2EB9114 /* NSNumber+SYZNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E33EE21BC685FE4F0A83AAEE4948FE99 /* pwd2key.c in Sources */ = {isa = PBXBuildFile; fileRef = 2C7F5F5A3900DCEE65873B977CF56C01 /* pwd2key.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E3E342A6AC09E2FEFB364657510090B8 /* SSZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48864D64BBF5F95ACB545287249344CF /* SSZipArchive.framework */; };
+		E47D8BEDB5DFBA383CE5AE3C8F002110 /* ioapi_buf.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B95F5DF4AC98A450243B90AAB703D8B /* ioapi_buf.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E47ED366EE5AFB2A1AAD3C285A6BA4A0 /* NSArray+SYZArrayAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 4447626DDA943EFB48395EAF7913C76C /* NSArray+SYZArrayAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA15FAF4752DF26ABA9EA6C682F7234C /* aes_ni.h in Headers */ = {isa = PBXBuildFile; fileRef = 8247BFE84FC81AFDF6B938474CCD7DB5 /* aes_ni.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB2F703A2C7F54F212C2AA611D0C2B5C /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 6255B949633610D8D889A9BF181EBE1C /* sha1.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		ED3B5F22DDA2ACDA4D089097383F52B9 /* aescrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D5F4F44F1AA19A5AC527BB47B6EBC82 /* aescrypt.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F5957FCCFB4AE02CCCD8FB61EE49B876 /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 7F1F37B794F9E22775DECCBFF4B1565B /* ioapi.c */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F667804DAA6972BA17BA24D282D0FA06 /* NSMutableAttributedString+SYZAdditon.m in Sources */ = {isa = PBXBuildFile; fileRef = DF132E6F42A7DC797CD8D29031E6726D /* NSMutableAttributedString+SYZAdditon.m */; };
+		F896817C4D82B3FB1B9B2D450FA57FF3 /* Pods-SYZFileManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC17D7697EA607D5E766C3FC52B335CB /* Pods-SYZFileManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB623E5F6DF2D8AE225B992D5322D52D /* NSScanner+SYZFoundationAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = D6C24B364342A65FDF7120569C9F55F0 /* NSScanner+SYZFoundationAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC50B89DECF1E1AFD43AB1CB3BB1E340 /* NSBundle+SYZBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = D7D26431ECD084A2C18FD9EE8A7B9003 /* NSBundle+SYZBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C6B21A8DF1E4DA9832058DCEDC59834 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8E2EE4442D30DED711BCC36DBF357C3;
+			remoteInfo = SYZFileManager;
+		};
+		11723A4931D8D3387D26E61BF883D829 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19CB1EEB41268358F80065C8D9EC7F22;
+			remoteInfo = SSZipArchive;
+		};
+		2885A380C51D8822210DB5E991A3DC16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E58927E1D85828AD257D824605C2F16;
+			remoteInfo = "Pods-SYZFileManager_Example";
+		};
+		3A8663EEAE2F1E54DFBB710496EA1F34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E560402F6A4DF352F7E5EE805A4C432;
+			remoteInfo = SYZUIBasekit;
+		};
+		50CD777F2A79350E7B73D30B3BB544FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E560402F6A4DF352F7E5EE805A4C432;
+			remoteInfo = SYZUIBasekit;
+		};
+		D08D3C0137C14336F8495E13752698AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19CB1EEB41268358F80065C8D9EC7F22;
+			remoteInfo = SSZipArchive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A452DF68EFC8FE61E1A7AE4384E867 /* SSZipArchive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SSZipArchive.m; path = SSZipArchive/SSZipArchive.m; sourceTree = "<group>"; };
+		020DE93D9A102FCE3E463055A7FFA611 /* NSNumber+SYZNumber.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+SYZNumber.m"; path = "SYZUIBasekit/Classes/SYZNumber/NSNumber+SYZNumber.m"; sourceTree = "<group>"; };
+		029F077D9EF358AA9E2EDA5C9D07A0FD /* NSException+SYZException.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSException+SYZException.m"; path = "SYZUIBasekit/Classes/SYZException/NSException+SYZException.m"; sourceTree = "<group>"; };
+		0325F2757D57DB7821A1515B8195A459 /* SYZTimerProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZTimerProxy.h; path = SYZUIBasekit/Classes/SYZTimer/SYZTimerProxy.h; sourceTree = "<group>"; };
+		09296FBC2634109F57E1A1E958D42E54 /* SYZWeakObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZWeakObject.h; path = SYZUIBasekit/Classes/SYZObject/SYZWeakObject.h; sourceTree = "<group>"; };
+		09D4BB45371524CC84D6439CADE9E5F8 /* crypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crypt.c; path = SSZipArchive/minizip/crypt.c; sourceTree = "<group>"; };
+		0A19918498B4A489ADDA3315D179DA4F /* Pods_SYZFileManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYZFileManager_Tests.framework; path = "Pods-SYZFileManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A83CCAF7A3B044783B0FC00D569393F /* SYZUIBasekit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYZUIBasekit-umbrella.h"; sourceTree = "<group>"; };
+		0BE9714F8087788A2A5AA7C27C5F7FC4 /* Pods-SYZFileManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYZFileManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		0EAB41EBAE4B0A25A4BD8887A3B5F9D0 /* brg_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = brg_types.h; path = SSZipArchive/minizip/aes/brg_types.h; sourceTree = "<group>"; };
+		0F5CF3F9BBCBD6A6A3541D8EFAAC7523 /* ioapi_mem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioapi_mem.h; path = SSZipArchive/minizip/ioapi_mem.h; sourceTree = "<group>"; };
+		17C8B1730258A2A5FFA2E312A4CA60F4 /* SYZFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYZFileManager.m; path = SYZFileManager/Classes/SYZFileManager.m; sourceTree = "<group>"; };
+		1B07264D679DEDABA656CDEF9BD81177 /* Pods-SYZFileManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYZFileManager_Example-dummy.m"; sourceTree = "<group>"; };
+		1BC2AE1A3C471B1726837F837891D9CA /* NSJSONSerialization+SYZUIBaseKitAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSJSONSerialization+SYZUIBaseKitAdd.m"; path = "SYZUIBasekit/Classes/SYZJSONSerialization/NSJSONSerialization+SYZUIBaseKitAdd.m"; sourceTree = "<group>"; };
+		1C6A2EF388E229F63925D6A50C1E87CA /* NSHTTPCookieStorage+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSHTTPCookieStorage+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/NSHTTPCookieStorage/NSHTTPCookieStorage+SYZFoundationAdd.h"; sourceTree = "<group>"; };
+		1E7BC0D44D353E367F923F3512D21230 /* SYZTimerProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYZTimerProxy.m; path = SYZUIBasekit/Classes/SYZTimer/SYZTimerProxy.m; sourceTree = "<group>"; };
+		202C7519BBFE840E9543FAA6C23205BE /* NSDateFormatter+SYZFoundationAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+SYZFoundationAdd.m"; path = "SYZUIBasekit/Classes/SYZDate/NSDateFormatter+SYZFoundationAdd.m"; sourceTree = "<group>"; };
+		21CCCC2A0359870ECA5A1BB3E7A8706E /* Pods-SYZFileManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYZFileManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		23E992FEBED1EA69B5A3686B6E67AC8D /* Pods-SYZFileManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYZFileManager_Example-Info.plist"; sourceTree = "<group>"; };
+		23F9FE74D7B968DE53816B8094183F41 /* NSBundle+SYZBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+SYZBundle.m"; path = "SYZUIBasekit/Classes/SYZBundle/NSBundle+SYZBundle.m"; sourceTree = "<group>"; };
+		25B0A3D28BC002FEE0B503330AB72DD0 /* NSDate+SYZDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+SYZDate.h"; path = "SYZUIBasekit/Classes/SYZDate/NSDate+SYZDate.h"; sourceTree = "<group>"; };
+		25FA12316C358723D6F3F65B71D192C8 /* Pods-SYZFileManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SYZFileManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2A3BFC66271C0A41A9F77C1728BB3C0E /* NSDate+SYZTimeStamp.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+SYZTimeStamp.m"; path = "SYZUIBasekit/Classes/SYZDate/NSDate+SYZTimeStamp.m"; sourceTree = "<group>"; };
+		2A7726644DBDEF3772148E1EBB5674A3 /* SYZFileManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SYZFileManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2ABE685D6DA4EC53D077E9B9966148BD /* Pods_SYZFileManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SYZFileManager_Example.framework; path = "Pods-SYZFileManager_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7F5F5A3900DCEE65873B977CF56C01 /* pwd2key.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pwd2key.c; path = SSZipArchive/minizip/aes/pwd2key.c; sourceTree = "<group>"; };
+		2C93E9BC58DC8DDF0EEEA22233BCC25A /* crypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypt.h; path = SSZipArchive/minizip/crypt.h; sourceTree = "<group>"; };
+		2C9EAF8A4CB274C21F6F12332EAD9A01 /* NSAttributedString+SYZAdditon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+SYZAdditon.m"; path = "SYZUIBasekit/Classes/SYZAttributedString/NSAttributedString+SYZAdditon.m"; sourceTree = "<group>"; };
+		2D3146A3AAA5C5B9B35084D8FE93257C /* Pods-SYZFileManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYZFileManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2F5FBDDCE53E8BFE404EC56E0A16D3A0 /* ZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZipArchive.h; path = SSZipArchive/ZipArchive.h; sourceTree = "<group>"; };
+		2F76B1D5E31184131AC65AF5C3C2DB1A /* SYZUIBasekit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SYZUIBasekit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3271E59C3EFFCFAB6B12173DFF0F7798 /* SYZFileModuleName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZFileModuleName.h; path = SYZFileManager/Classes/SYZFileModuleName.h; sourceTree = "<group>"; };
+		3410375E491127FF8236950D82421FA6 /* NSDate+SYZTimeStamp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+SYZTimeStamp.h"; path = "SYZUIBasekit/Classes/SYZDate/NSDate+SYZTimeStamp.h"; sourceTree = "<group>"; };
+		37CE2731B6B8A98DEAF81013B88B740A /* SYZWeakObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYZWeakObject.m; path = SYZUIBasekit/Classes/SYZObject/SYZWeakObject.m; sourceTree = "<group>"; };
+		39E28AE352851C3B14C4957494ABDF64 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		39FF431001C21B497DE8C38E0A2735FD /* NSDictionary+SYZDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+SYZDictionary.h"; path = "SYZUIBasekit/Classes/SYZDictionary/NSDictionary+SYZDictionary.h"; sourceTree = "<group>"; };
+		3E4157DA3B457799F5733FAA9A8F1BC4 /* NSFileManager+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/SYZFileManager/NSFileManager+SYZFoundationAdd.h"; sourceTree = "<group>"; };
+		42710B872CC439F5DB1700C063C22020 /* SSZipArchive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSZipArchive-dummy.m"; sourceTree = "<group>"; };
+		4447626DDA943EFB48395EAF7913C76C /* NSArray+SYZArrayAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+SYZArrayAdd.h"; path = "SYZUIBasekit/Classes/SYZArray/NSArray+SYZArrayAdd.h"; sourceTree = "<group>"; };
+		45AC84A910708636325524A1E4C41E21 /* ioapi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = SSZipArchive/minizip/ioapi.h; sourceTree = "<group>"; };
+		47A66E717EC5F13A0DD814C7880587F7 /* SYZUIBasekit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SYZUIBasekit.modulemap; sourceTree = "<group>"; };
+		48140D6D4ED06726F7D652A0655EC70C /* NSString+SYZString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+SYZString.m"; path = "SYZUIBasekit/Classes/SYZString/NSString+SYZString.m"; sourceTree = "<group>"; };
+		48864D64BBF5F95ACB545287249344CF /* SSZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SSZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CD5034297532EB89239697DACFCD55B /* SYZFileManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYZFileManager-dummy.m"; sourceTree = "<group>"; };
+		4D1E54DDA1879E3D8A18C830BA478A42 /* NSTimer+SYZTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+SYZTimer.m"; path = "SYZUIBasekit/Classes/SYZTimer/NSTimer+SYZTimer.m"; sourceTree = "<group>"; };
+		4DCFC74D1ED1CF22BF2C2A6BC55423BA /* pwd2key.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pwd2key.h; path = SSZipArchive/minizip/aes/pwd2key.h; sourceTree = "<group>"; };
+		508644E8CC7B9C7F0DA146F6E65EAFF7 /* NSDictionary+SYZDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+SYZDictionary.m"; path = "SYZUIBasekit/Classes/SYZDictionary/NSDictionary+SYZDictionary.m"; sourceTree = "<group>"; };
+		53250AB59058CDF49974284F41016F43 /* NSObject+SYZObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SYZObject.m"; path = "SYZUIBasekit/Classes/SYZObject/NSObject+SYZObject.m"; sourceTree = "<group>"; };
+		552FC540D5AAD92CECAE3077C0501F5B /* SYZFileManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYZFileManager.xcconfig; sourceTree = "<group>"; };
+		569910F2F1DD9C49F315BE57836E767C /* ioapi_mem.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ioapi_mem.c; path = SSZipArchive/minizip/ioapi_mem.c; sourceTree = "<group>"; };
+		588B05ECCB7E9D56DFF71AD64DD1F345 /* SYZFileManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SYZFileManager.modulemap; sourceTree = "<group>"; };
+		5F5D8BC016F366B2AE8106D92075F0C9 /* fileenc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fileenc.c; path = SSZipArchive/minizip/aes/fileenc.c; sourceTree = "<group>"; };
+		61EFDAE18023DDDD89BDB322D9C0966B /* Pods-SYZFileManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYZFileManager_Tests.modulemap"; sourceTree = "<group>"; };
+		6255B949633610D8D889A9BF181EBE1C /* sha1.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sha1.c; path = SSZipArchive/minizip/aes/sha1.c; sourceTree = "<group>"; };
+		63CB115D5EE6B68E1D73F3065A05CBF6 /* UIDevice+SYZDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+SYZDevice.h"; path = "SYZUIBasekit/Classes/SYZDevice/UIDevice+SYZDevice.h"; sourceTree = "<group>"; };
+		674FFC321F62A8A2A0B327CFEC5D436B /* SSZipArchive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-umbrella.h"; sourceTree = "<group>"; };
+		686B63FA75822FDE3B1E0A69A836E808 /* Pods-SYZFileManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SYZFileManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		689B51E861544E5D35CC8306C39EC675 /* SYZUIBasekit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SYZUIBasekit.xcconfig; sourceTree = "<group>"; };
+		6912267B3CDE6CA4FC24D6EE503C251A /* ioapi_buf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ioapi_buf.h; path = SSZipArchive/minizip/ioapi_buf.h; sourceTree = "<group>"; };
+		6938878AA5E5EC9350DC6908DFC42786 /* unzip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = unzip.c; path = SSZipArchive/minizip/unzip.c; sourceTree = "<group>"; };
+		6B2DE49ADA2BE20F030C485199330EA3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6B95F5DF4AC98A450243B90AAB703D8B /* ioapi_buf.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ioapi_buf.c; path = SSZipArchive/minizip/ioapi_buf.c; sourceTree = "<group>"; };
+		6CFBC13E3D86E6F0A80DC1A88D67C295 /* Pods-SYZFileManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYZFileManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		733CB04A808E0036AAA172D6A7058470 /* NSDateFormatter+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/SYZDate/NSDateFormatter+SYZFoundationAdd.h"; sourceTree = "<group>"; };
+		742A11A4E33BCA5EE67117E67C17EA64 /* brg_endian.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = brg_endian.h; path = SSZipArchive/minizip/aes/brg_endian.h; sourceTree = "<group>"; };
+		79A457E3495CE16B4E7BF8DEC65A5728 /* Pods-SYZFileManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYZFileManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7A4CC23D0E8B7768B2C3BAFC79451683 /* NSArray+SYZArrayAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+SYZArrayAdd.m"; path = "SYZUIBasekit/Classes/SYZArray/NSArray+SYZArrayAdd.m"; sourceTree = "<group>"; };
+		7ABF11714F6352211D29C1B37A3572E8 /* zip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = zip.h; path = SSZipArchive/minizip/zip.h; sourceTree = "<group>"; };
+		7F1F37B794F9E22775DECCBFF4B1565B /* ioapi.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ioapi.c; path = SSZipArchive/minizip/ioapi.c; sourceTree = "<group>"; };
+		8247BFE84FC81AFDF6B938474CCD7DB5 /* aes_ni.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes_ni.h; path = SSZipArchive/minizip/aes/aes_ni.h; sourceTree = "<group>"; };
+		83C01DD2ACD63053F7E6449117FDF0BD /* SYZFileManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYZFileManager-umbrella.h"; sourceTree = "<group>"; };
+		84079F80085B502CB4B0B72CBE30BB7B /* NSString+SYZString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+SYZString.h"; path = "SYZUIBasekit/Classes/SYZString/NSString+SYZString.h"; sourceTree = "<group>"; };
+		88122D7DBAF2737631BAAC8EE0178B11 /* SYZFoundationShorthandMarcos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZFoundationShorthandMarcos.h; path = SYZUIBasekit/Classes/SYZFoundationMacros/SYZFoundationShorthandMarcos.h; sourceTree = "<group>"; };
+		897A1D93F0C4C4CF261CA9F7761606F0 /* SSZipArchive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SSZipArchive.modulemap; sourceTree = "<group>"; };
+		8BDCD98D127438AD71B1E513B9108F2F /* unzip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = SSZipArchive/minizip/unzip.h; sourceTree = "<group>"; };
+		8D5F4F44F1AA19A5AC527BB47B6EBC82 /* aescrypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aescrypt.c; path = SSZipArchive/minizip/aes/aescrypt.c; sourceTree = "<group>"; };
+		8D81E2742BB33739EF03BBA3D01344D4 /* SYZZipManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZZipManager.h; path = SYZFileManager/Classes/SYZZipManager.h; sourceTree = "<group>"; };
+		8F64E0604B2B6398E3ABAA462B976A9C /* SSZipCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipCommon.h; path = SSZipArchive/SSZipCommon.h; sourceTree = "<group>"; };
+		8F6B38ED914E60CD66EB00BAF724339F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		90599A95E2C15A9F116BB1A98DCC97EC /* UIApplication+SYZFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+SYZFoundation.m"; path = "SYZUIBasekit/Classes/SYZApplication/UIApplication+SYZFoundation.m"; sourceTree = "<group>"; };
+		906359B74E4636CF05A7F67ECDEECE93 /* NSSet+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSet+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/SYZSet/NSSet+SYZFoundationAdd.h"; sourceTree = "<group>"; };
+		917E5AB9CC3E9B8F426A5E16CB5D368D /* NSURL+SYZURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+SYZURL.h"; path = "SYZUIBasekit/Classes/SYZURL/NSURL+SYZURL.h"; sourceTree = "<group>"; };
+		94D10C5184F39EA07D86A0EA95F00C8F /* NSFileManager+SYZFoundationAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+SYZFoundationAdd.m"; path = "SYZUIBasekit/Classes/SYZFileManager/NSFileManager+SYZFoundationAdd.m"; sourceTree = "<group>"; };
+		95AD3ED4374E87600C33726482E5AD92 /* NSData+SYZFoundationAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+SYZFoundationAdd.m"; path = "SYZUIBasekit/Classes/NSData/NSData+SYZFoundationAdd.m"; sourceTree = "<group>"; };
+		95DE928E9EA86BFB516FC69C17684286 /* aestab.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aestab.c; path = SSZipArchive/minizip/aes/aestab.c; sourceTree = "<group>"; };
+		98D3FC956CDE5BE7EBE6E81593896D9D /* Pods-SYZFileManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SYZFileManager_Example.modulemap"; sourceTree = "<group>"; };
+		9A114343BB284BF1AC3C66251B93B147 /* SSZipArchive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SSZipArchive.framework; path = SSZipArchive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD508907E554EAF4EF46CB41767DF16 /* NSURL+SYZURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURL+SYZURL.m"; path = "SYZUIBasekit/Classes/SYZURL/NSURL+SYZURL.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E45CCA936065B76B91153CA673F7D9B /* SSZipArchive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSZipArchive-prefix.pch"; sourceTree = "<group>"; };
+		9F9F2648ACCA0FFED003531C0F317A34 /* minishared.c */ = {isa = PBXFileReference; includeInIndex = 1; name = minishared.c; path = SSZipArchive/minizip/minishared.c; sourceTree = "<group>"; };
+		A1135B53417AF91D41884B0FF7344A38 /* SYZFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZFileManager.h; path = SYZFileManager/Classes/SYZFileManager.h; sourceTree = "<group>"; };
+		A4399DE9417130A8A8D3D99D785810D1 /* NSData+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/NSData/NSData+SYZFoundationAdd.h"; sourceTree = "<group>"; };
+		A4AB7F82AA53164EF117F5132009D83A /* aes_ni.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aes_ni.c; path = SSZipArchive/minizip/aes/aes_ni.c; sourceTree = "<group>"; };
+		A559264200A2B239D2C15DED901BFEEF /* fileenc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fileenc.h; path = SSZipArchive/minizip/aes/fileenc.h; sourceTree = "<group>"; };
+		A6048EC866E05466D10FBC5B9BAD998C /* NSAttributedString+SYZAdditon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+SYZAdditon.h"; path = "SYZUIBasekit/Classes/SYZAttributedString/NSAttributedString+SYZAdditon.h"; sourceTree = "<group>"; };
+		A64AB7B600A0CAC92CC073A272410A94 /* SSZipArchive.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSZipArchive.xcconfig; sourceTree = "<group>"; };
+		AB9D9B559214F4001FAF2960E4DB257B /* SYZDate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZDate.h; path = SYZUIBasekit/Classes/SYZDate/SYZDate.h; sourceTree = "<group>"; };
+		B08A979153861D5536ED4B99C25ACBA6 /* NSScanner+SYZFoundationAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSScanner+SYZFoundationAdd.m"; path = "SYZUIBasekit/Classes/SYZScanner/NSScanner+SYZFoundationAdd.m"; sourceTree = "<group>"; };
+		B1E574283E069BCF68EC0C248A867C4C /* Pods-SYZFileManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYZFileManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B21C9095F7418E819EE2C3FF4C99BD1C /* SYZFileManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SYZFileManager-Info.plist"; sourceTree = "<group>"; };
+		B33E473BB7293D39A8B80D762CB8E38A /* aesopt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aesopt.h; path = SSZipArchive/minizip/aes/aesopt.h; sourceTree = "<group>"; };
+		B6E610C5EA3723D6236CF127382FD47C /* SYZDateEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZDateEnum.h; path = SYZUIBasekit/Classes/SYZDate/SYZDateEnum.h; sourceTree = "<group>"; };
+		B831590F1C3E187CFDBE216C10F89930 /* SYZZipManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYZZipManager.m; path = SYZFileManager/Classes/SYZZipManager.m; sourceTree = "<group>"; };
+		B9851345EC169D2E83C14253B3E06BDA /* SSZipArchive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SSZipArchive.h; path = SSZipArchive/SSZipArchive.h; sourceTree = "<group>"; };
+		B98C70BF2CEE6C6FC192C56C12B467DB /* NSMutableArray+SYZMutableArrayAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+SYZMutableArrayAdd.m"; path = "SYZUIBasekit/Classes/SYZArray/NSMutableArray+SYZMutableArrayAdd.m"; sourceTree = "<group>"; };
+		BC17D7697EA607D5E766C3FC52B335CB /* Pods-SYZFileManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SYZFileManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C5266BE7C87521ECA01DE3C4EF9B7BCC /* NSSet+SYZFoundationAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSSet+SYZFoundationAdd.m"; path = "SYZUIBasekit/Classes/SYZSet/NSSet+SYZFoundationAdd.m"; sourceTree = "<group>"; };
+		C5538A006CE5E74B3CADCD7BAB9A52C3 /* NSTimer+SYZTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+SYZTimer.h"; path = "SYZUIBasekit/Classes/SYZTimer/NSTimer+SYZTimer.h"; sourceTree = "<group>"; };
+		C58A3C9845A63662C42474AC844E8B79 /* NSDate+SYZDate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+SYZDate.m"; path = "SYZUIBasekit/Classes/SYZDate/NSDate+SYZDate.m"; sourceTree = "<group>"; };
+		C5FF4A4A8805EEE3A82FA02C9D8896E8 /* SYZFileManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYZFileManager-prefix.pch"; sourceTree = "<group>"; };
+		C60F84BB3570C0C3F1B7C408F8E240F1 /* SYZUIBasekit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SYZUIBasekit-Info.plist"; sourceTree = "<group>"; };
+		C6DA8DE8EE224AB0E6607B88EA1BC049 /* SYZUIBasekit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SYZUIBasekit-dummy.m"; sourceTree = "<group>"; };
+		CA3AEE97316A5AAE4C4F8F8FD97BAE64 /* Pods-SYZFileManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SYZFileManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CD88901E55F92B4D245774F7864DD0CF /* Pods-SYZFileManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SYZFileManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CDE3222CF0C28A00F8330CC62F11206D /* NSMutableAttributedString+SYZAdditon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableAttributedString+SYZAdditon.h"; path = "SYZUIBasekit/Classes/SYZAttributedString/NSMutableAttributedString+SYZAdditon.h"; sourceTree = "<group>"; };
+		D168D4260BE2EBACBFFC4BF9AB5B9FBA /* prng.c */ = {isa = PBXFileReference; includeInIndex = 1; name = prng.c; path = SSZipArchive/minizip/aes/prng.c; sourceTree = "<group>"; };
+		D1B745998B873C3211BADFDF628D6B0F /* SYZFileManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYZFileManager.framework; path = SYZFileManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1C9D8F26650F72AD5B64FF66DA06964 /* UIDevice+SYZDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+SYZDevice.m"; path = "SYZUIBasekit/Classes/SYZDevice/UIDevice+SYZDevice.m"; sourceTree = "<group>"; };
+		D3C442C981666539C6A213F4DAF814BB /* Pods-SYZFileManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYZFileManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D42C2FD79CF75E62B9EDDE4CF902FD81 /* prng.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = prng.h; path = SSZipArchive/minizip/aes/prng.h; sourceTree = "<group>"; };
+		D48AB783B113F58598C1E780BAB3BBF1 /* UIApplication+SYZFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+SYZFoundation.h"; path = "SYZUIBasekit/Classes/SYZApplication/UIApplication+SYZFoundation.h"; sourceTree = "<group>"; };
+		D6C24B364342A65FDF7120569C9F55F0 /* NSScanner+SYZFoundationAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSScanner+SYZFoundationAdd.h"; path = "SYZUIBasekit/Classes/SYZScanner/NSScanner+SYZFoundationAdd.h"; sourceTree = "<group>"; };
+		D716B12EA860C6948AEE8B0A1F488F3E /* zip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = zip.c; path = SSZipArchive/minizip/zip.c; sourceTree = "<group>"; };
+		D716FA0340A74749CC6367F660F1A1D8 /* aestab.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aestab.h; path = SSZipArchive/minizip/aes/aestab.h; sourceTree = "<group>"; };
+		D7D26431ECD084A2C18FD9EE8A7B9003 /* NSBundle+SYZBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+SYZBundle.h"; path = "SYZUIBasekit/Classes/SYZBundle/NSBundle+SYZBundle.h"; sourceTree = "<group>"; };
+		D817131506AFE1F84BE9C93008CA558B /* SYZUIBasekit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SYZUIBasekit.framework; path = SYZUIBasekit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBFFB56BF5C942A6E9F8D40D01DB2461 /* NSObject+SYZObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+SYZObject.h"; path = "SYZUIBasekit/Classes/SYZObject/NSObject+SYZObject.h"; sourceTree = "<group>"; };
+		DC86EFB40D9382BDB58BD887D2EB9114 /* NSNumber+SYZNumber.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+SYZNumber.h"; path = "SYZUIBasekit/Classes/SYZNumber/NSNumber+SYZNumber.h"; sourceTree = "<group>"; };
+		DF132E6F42A7DC797CD8D29031E6726D /* NSMutableAttributedString+SYZAdditon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableAttributedString+SYZAdditon.m"; path = "SYZUIBasekit/Classes/SYZAttributedString/NSMutableAttributedString+SYZAdditon.m"; sourceTree = "<group>"; };
+		DFA21C1A20C0292E2BB936B5F6589A20 /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = SSZipArchive/minizip/aes/hmac.h; sourceTree = "<group>"; };
+		E34FA58B732694A77D8B26CD277F4EE7 /* NSJSONSerialization+SYZUIBaseKitAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSJSONSerialization+SYZUIBaseKitAdd.h"; path = "SYZUIBasekit/Classes/SYZJSONSerialization/NSJSONSerialization+SYZUIBaseKitAdd.h"; sourceTree = "<group>"; };
+		E3C5FC2F6FBC503ADD9621B7C17E3703 /* SYZUIBasekit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZUIBasekit.h; path = SYZUIBasekit/Classes/SYZUIBasekit.h; sourceTree = "<group>"; };
+		E54C2639590A785D3EDF834A6493320F /* SYZFileModuleName.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SYZFileModuleName.m; path = SYZFileManager/Classes/SYZFileModuleName.m; sourceTree = "<group>"; };
+		E80007E2AA633BB2A7243E0811613CE0 /* NSMutableArray+SYZMutableArrayAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+SYZMutableArrayAdd.h"; path = "SYZUIBasekit/Classes/SYZArray/NSMutableArray+SYZMutableArrayAdd.h"; sourceTree = "<group>"; };
+		E8F2646A61B11DBDDC0EABBCD3E40F09 /* minishared.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = minishared.h; path = SSZipArchive/minizip/minishared.h; sourceTree = "<group>"; };
+		EB36973AECB317588AF265CA65657F3A /* SSZipArchive-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SSZipArchive-Info.plist"; sourceTree = "<group>"; };
+		EC2A89A4D6923B93B896236A64CB37AF /* NSException+SYZException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSException+SYZException.h"; path = "SYZUIBasekit/Classes/SYZException/NSException+SYZException.h"; sourceTree = "<group>"; };
+		EC5740CE8727974ED5BB2C47ADA84B6F /* SYZFoundationMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SYZFoundationMacros.h; path = SYZUIBasekit/Classes/SYZFoundationMacros/SYZFoundationMacros.h; sourceTree = "<group>"; };
+		EC6C3E3A196E54A4ADFF8B6DA7420AD5 /* Pods-SYZFileManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SYZFileManager_Tests-Info.plist"; sourceTree = "<group>"; };
+		EC88D228D284372AF58302C313430DE4 /* sha1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha1.h; path = SSZipArchive/minizip/aes/sha1.h; sourceTree = "<group>"; };
+		EFCD7AFA046263CF481A1F993F9C555F /* hmac.c */ = {isa = PBXFileReference; includeInIndex = 1; name = hmac.c; path = SSZipArchive/minizip/aes/hmac.c; sourceTree = "<group>"; };
+		F3F6ACBBBC3288547F87AF278A25F5C8 /* SYZUIBasekit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SYZUIBasekit-prefix.pch"; sourceTree = "<group>"; };
+		F9C94B019D9B5235AC27DB7E97FA77BD /* NSHTTPCookieStorage+SYZFoundationAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSHTTPCookieStorage+SYZFoundationAdd.m"; path = "SYZUIBasekit/Classes/NSHTTPCookieStorage/NSHTTPCookieStorage+SYZFoundationAdd.m"; sourceTree = "<group>"; };
+		FA56B5CF0F7F625E051B54F55BD11BB9 /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = SSZipArchive/minizip/aes/aes.h; sourceTree = "<group>"; };
+		FCA7392061508752791B9AEADA8E3FED /* aeskey.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aeskey.c; path = SSZipArchive/minizip/aes/aeskey.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08B7C03479D23D01B56B1D3D281DE60A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1C9E5F4502CE8B2E9E840A6718D3BD /* Foundation.framework in Frameworks */,
+				E3E342A6AC09E2FEFB364657510090B8 /* SSZipArchive.framework in Frameworks */,
+				214C70AB90177F7DB10CC0E7A2A45937 /* SYZUIBasekit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		102BFC42AE443A049DE7B28757AD91F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B332166731EAB66F5677C926C6EC7059 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DE71F0421FB0666F061F003EF7781E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841144FD00CE755F8EF2648A2E4C2FFF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B5A7DCB55B8EF169C52A72FAD8C916D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8635F437E9765346051EEC6CB6C773A2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F163E9AE37B686C2965091CCF08DD766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93FBF13DCC034A7A3517FFA663DA9270 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06AC277BBEEE77218CD096637E5C7132 /* SYZUIBasekit */ = {
+			isa = PBXGroup;
+			children = (
+				4447626DDA943EFB48395EAF7913C76C /* NSArray+SYZArrayAdd.h */,
+				7A4CC23D0E8B7768B2C3BAFC79451683 /* NSArray+SYZArrayAdd.m */,
+				A6048EC866E05466D10FBC5B9BAD998C /* NSAttributedString+SYZAdditon.h */,
+				2C9EAF8A4CB274C21F6F12332EAD9A01 /* NSAttributedString+SYZAdditon.m */,
+				D7D26431ECD084A2C18FD9EE8A7B9003 /* NSBundle+SYZBundle.h */,
+				23F9FE74D7B968DE53816B8094183F41 /* NSBundle+SYZBundle.m */,
+				A4399DE9417130A8A8D3D99D785810D1 /* NSData+SYZFoundationAdd.h */,
+				95AD3ED4374E87600C33726482E5AD92 /* NSData+SYZFoundationAdd.m */,
+				25B0A3D28BC002FEE0B503330AB72DD0 /* NSDate+SYZDate.h */,
+				C58A3C9845A63662C42474AC844E8B79 /* NSDate+SYZDate.m */,
+				3410375E491127FF8236950D82421FA6 /* NSDate+SYZTimeStamp.h */,
+				2A3BFC66271C0A41A9F77C1728BB3C0E /* NSDate+SYZTimeStamp.m */,
+				733CB04A808E0036AAA172D6A7058470 /* NSDateFormatter+SYZFoundationAdd.h */,
+				202C7519BBFE840E9543FAA6C23205BE /* NSDateFormatter+SYZFoundationAdd.m */,
+				39FF431001C21B497DE8C38E0A2735FD /* NSDictionary+SYZDictionary.h */,
+				508644E8CC7B9C7F0DA146F6E65EAFF7 /* NSDictionary+SYZDictionary.m */,
+				EC2A89A4D6923B93B896236A64CB37AF /* NSException+SYZException.h */,
+				029F077D9EF358AA9E2EDA5C9D07A0FD /* NSException+SYZException.m */,
+				3E4157DA3B457799F5733FAA9A8F1BC4 /* NSFileManager+SYZFoundationAdd.h */,
+				94D10C5184F39EA07D86A0EA95F00C8F /* NSFileManager+SYZFoundationAdd.m */,
+				1C6A2EF388E229F63925D6A50C1E87CA /* NSHTTPCookieStorage+SYZFoundationAdd.h */,
+				F9C94B019D9B5235AC27DB7E97FA77BD /* NSHTTPCookieStorage+SYZFoundationAdd.m */,
+				E34FA58B732694A77D8B26CD277F4EE7 /* NSJSONSerialization+SYZUIBaseKitAdd.h */,
+				1BC2AE1A3C471B1726837F837891D9CA /* NSJSONSerialization+SYZUIBaseKitAdd.m */,
+				E80007E2AA633BB2A7243E0811613CE0 /* NSMutableArray+SYZMutableArrayAdd.h */,
+				B98C70BF2CEE6C6FC192C56C12B467DB /* NSMutableArray+SYZMutableArrayAdd.m */,
+				CDE3222CF0C28A00F8330CC62F11206D /* NSMutableAttributedString+SYZAdditon.h */,
+				DF132E6F42A7DC797CD8D29031E6726D /* NSMutableAttributedString+SYZAdditon.m */,
+				DC86EFB40D9382BDB58BD887D2EB9114 /* NSNumber+SYZNumber.h */,
+				020DE93D9A102FCE3E463055A7FFA611 /* NSNumber+SYZNumber.m */,
+				DBFFB56BF5C942A6E9F8D40D01DB2461 /* NSObject+SYZObject.h */,
+				53250AB59058CDF49974284F41016F43 /* NSObject+SYZObject.m */,
+				D6C24B364342A65FDF7120569C9F55F0 /* NSScanner+SYZFoundationAdd.h */,
+				B08A979153861D5536ED4B99C25ACBA6 /* NSScanner+SYZFoundationAdd.m */,
+				906359B74E4636CF05A7F67ECDEECE93 /* NSSet+SYZFoundationAdd.h */,
+				C5266BE7C87521ECA01DE3C4EF9B7BCC /* NSSet+SYZFoundationAdd.m */,
+				84079F80085B502CB4B0B72CBE30BB7B /* NSString+SYZString.h */,
+				48140D6D4ED06726F7D652A0655EC70C /* NSString+SYZString.m */,
+				C5538A006CE5E74B3CADCD7BAB9A52C3 /* NSTimer+SYZTimer.h */,
+				4D1E54DDA1879E3D8A18C830BA478A42 /* NSTimer+SYZTimer.m */,
+				917E5AB9CC3E9B8F426A5E16CB5D368D /* NSURL+SYZURL.h */,
+				9AD508907E554EAF4EF46CB41767DF16 /* NSURL+SYZURL.m */,
+				AB9D9B559214F4001FAF2960E4DB257B /* SYZDate.h */,
+				B6E610C5EA3723D6236CF127382FD47C /* SYZDateEnum.h */,
+				EC5740CE8727974ED5BB2C47ADA84B6F /* SYZFoundationMacros.h */,
+				88122D7DBAF2737631BAAC8EE0178B11 /* SYZFoundationShorthandMarcos.h */,
+				0325F2757D57DB7821A1515B8195A459 /* SYZTimerProxy.h */,
+				1E7BC0D44D353E367F923F3512D21230 /* SYZTimerProxy.m */,
+				E3C5FC2F6FBC503ADD9621B7C17E3703 /* SYZUIBasekit.h */,
+				09296FBC2634109F57E1A1E958D42E54 /* SYZWeakObject.h */,
+				37CE2731B6B8A98DEAF81013B88B740A /* SYZWeakObject.m */,
+				D48AB783B113F58598C1E780BAB3BBF1 /* UIApplication+SYZFoundation.h */,
+				90599A95E2C15A9F116BB1A98DCC97EC /* UIApplication+SYZFoundation.m */,
+				63CB115D5EE6B68E1D73F3065A05CBF6 /* UIDevice+SYZDevice.h */,
+				D1C9D8F26650F72AD5B64FF66DA06964 /* UIDevice+SYZDevice.m */,
+				1092BD457DA97D17FC670983A5D54D94 /* Support Files */,
+			);
+			name = SYZUIBasekit;
+			path = SYZUIBasekit;
+			sourceTree = "<group>";
+		};
+		1092BD457DA97D17FC670983A5D54D94 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47A66E717EC5F13A0DD814C7880587F7 /* SYZUIBasekit.modulemap */,
+				689B51E861544E5D35CC8306C39EC675 /* SYZUIBasekit.xcconfig */,
+				C6DA8DE8EE224AB0E6607B88EA1BC049 /* SYZUIBasekit-dummy.m */,
+				C60F84BB3570C0C3F1B7C408F8E240F1 /* SYZUIBasekit-Info.plist */,
+				F3F6ACBBBC3288547F87AF278A25F5C8 /* SYZUIBasekit-prefix.pch */,
+				0A83CCAF7A3B044783B0FC00D569393F /* SYZUIBasekit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SYZUIBasekit";
+			sourceTree = "<group>";
+		};
+		304706789CC67BC9A07899369514D7F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6F58FF9A4DD7D9D62A199BF4BD4E970 /* SSZipArchive */,
+				06AC277BBEEE77218CD096637E5C7132 /* SYZUIBasekit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		312F3036F5A8C3423A00D9B312A7822D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94CEE75129E0482143EA988BB680C433 /* SYZFileManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		610C27F6DAE2C9C0ED6914FA32674CA0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8F6B38ED914E60CD66EB00BAF724339F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6EB9A92B4778A5DA6EA679E408BBBE2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48864D64BBF5F95ACB545287249344CF /* SSZipArchive.framework */,
+				2F76B1D5E31184131AC65AF5C3C2DB1A /* SYZUIBasekit.framework */,
+				610C27F6DAE2C9C0ED6914FA32674CA0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72FD5CBED76B3B5AFF85C042B50B11DB /* Pods-SYZFileManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				61EFDAE18023DDDD89BDB322D9C0966B /* Pods-SYZFileManager_Tests.modulemap */,
+				B1E574283E069BCF68EC0C248A867C4C /* Pods-SYZFileManager_Tests-acknowledgements.markdown */,
+				6CFBC13E3D86E6F0A80DC1A88D67C295 /* Pods-SYZFileManager_Tests-acknowledgements.plist */,
+				686B63FA75822FDE3B1E0A69A836E808 /* Pods-SYZFileManager_Tests-dummy.m */,
+				EC6C3E3A196E54A4ADFF8B6DA7420AD5 /* Pods-SYZFileManager_Tests-Info.plist */,
+				BC17D7697EA607D5E766C3FC52B335CB /* Pods-SYZFileManager_Tests-umbrella.h */,
+				21CCCC2A0359870ECA5A1BB3E7A8706E /* Pods-SYZFileManager_Tests.debug.xcconfig */,
+				2D3146A3AAA5C5B9B35084D8FE93257C /* Pods-SYZFileManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-SYZFileManager_Tests";
+			path = "Target Support Files/Pods-SYZFileManager_Tests";
+			sourceTree = "<group>";
+		};
+		7FA539EF206AA647AA7CC75D808D7251 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2ABE685D6DA4EC53D077E9B9966148BD /* Pods_SYZFileManager_Example.framework */,
+				0A19918498B4A489ADDA3315D179DA4F /* Pods_SYZFileManager_Tests.framework */,
+				9A114343BB284BF1AC3C66251B93B147 /* SSZipArchive.framework */,
+				D1B745998B873C3211BADFDF628D6B0F /* SYZFileManager.framework */,
+				D817131506AFE1F84BE9C93008CA558B /* SYZUIBasekit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BA0A3A276E6646D6ED1205F115702EF /* Pods-SYZFileManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				98D3FC956CDE5BE7EBE6E81593896D9D /* Pods-SYZFileManager_Example.modulemap */,
+				CA3AEE97316A5AAE4C4F8F8FD97BAE64 /* Pods-SYZFileManager_Example-acknowledgements.markdown */,
+				D3C442C981666539C6A213F4DAF814BB /* Pods-SYZFileManager_Example-acknowledgements.plist */,
+				1B07264D679DEDABA656CDEF9BD81177 /* Pods-SYZFileManager_Example-dummy.m */,
+				25FA12316C358723D6F3F65B71D192C8 /* Pods-SYZFileManager_Example-frameworks.sh */,
+				23E992FEBED1EA69B5A3686B6E67AC8D /* Pods-SYZFileManager_Example-Info.plist */,
+				0BE9714F8087788A2A5AA7C27C5F7FC4 /* Pods-SYZFileManager_Example-umbrella.h */,
+				CD88901E55F92B4D245774F7864DD0CF /* Pods-SYZFileManager_Example.debug.xcconfig */,
+				79A457E3495CE16B4E7BF8DEC65A5728 /* Pods-SYZFileManager_Example.release.xcconfig */,
+			);
+			name = "Pods-SYZFileManager_Example";
+			path = "Target Support Files/Pods-SYZFileManager_Example";
+			sourceTree = "<group>";
+		};
+		923C1051FF84D41F50BCF2B0853A4B6E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				588B05ECCB7E9D56DFF71AD64DD1F345 /* SYZFileManager.modulemap */,
+				552FC540D5AAD92CECAE3077C0501F5B /* SYZFileManager.xcconfig */,
+				4CD5034297532EB89239697DACFCD55B /* SYZFileManager-dummy.m */,
+				B21C9095F7418E819EE2C3FF4C99BD1C /* SYZFileManager-Info.plist */,
+				C5FF4A4A8805EEE3A82FA02C9D8896E8 /* SYZFileManager-prefix.pch */,
+				83C01DD2ACD63053F7E6449117FDF0BD /* SYZFileManager-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SYZFileManager";
+			sourceTree = "<group>";
+		};
+		94CEE75129E0482143EA988BB680C433 /* SYZFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				A1135B53417AF91D41884B0FF7344A38 /* SYZFileManager.h */,
+				17C8B1730258A2A5FFA2E312A4CA60F4 /* SYZFileManager.m */,
+				3271E59C3EFFCFAB6B12173DFF0F7798 /* SYZFileModuleName.h */,
+				E54C2639590A785D3EDF834A6493320F /* SYZFileModuleName.m */,
+				8D81E2742BB33739EF03BBA3D01344D4 /* SYZZipManager.h */,
+				B831590F1C3E187CFDBE216C10F89930 /* SYZZipManager.m */,
+				E358E264F6D309965B2FC5BD24F92A46 /* Pod */,
+				923C1051FF84D41F50BCF2B0853A4B6E /* Support Files */,
+			);
+			name = SYZFileManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A80C725A247AD0C83B962D7A89787CA4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				897A1D93F0C4C4CF261CA9F7761606F0 /* SSZipArchive.modulemap */,
+				A64AB7B600A0CAC92CC073A272410A94 /* SSZipArchive.xcconfig */,
+				42710B872CC439F5DB1700C063C22020 /* SSZipArchive-dummy.m */,
+				EB36973AECB317588AF265CA65657F3A /* SSZipArchive-Info.plist */,
+				9E45CCA936065B76B91153CA673F7D9B /* SSZipArchive-prefix.pch */,
+				674FFC321F62A8A2A0B327CFEC5D436B /* SSZipArchive-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SSZipArchive";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				312F3036F5A8C3423A00D9B312A7822D /* Development Pods */,
+				6EB9A92B4778A5DA6EA679E408BBBE2C /* Frameworks */,
+				304706789CC67BC9A07899369514D7F9 /* Pods */,
+				7FA539EF206AA647AA7CC75D808D7251 /* Products */,
+				F23711D148A1B58522286C022FB0C364 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E358E264F6D309965B2FC5BD24F92A46 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6B2DE49ADA2BE20F030C485199330EA3 /* LICENSE */,
+				39E28AE352851C3B14C4957494ABDF64 /* README.md */,
+				2A7726644DBDEF3772148E1EBB5674A3 /* SYZFileManager.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E6F58FF9A4DD7D9D62A199BF4BD4E970 /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				FA56B5CF0F7F625E051B54F55BD11BB9 /* aes.h */,
+				A4AB7F82AA53164EF117F5132009D83A /* aes_ni.c */,
+				8247BFE84FC81AFDF6B938474CCD7DB5 /* aes_ni.h */,
+				8D5F4F44F1AA19A5AC527BB47B6EBC82 /* aescrypt.c */,
+				FCA7392061508752791B9AEADA8E3FED /* aeskey.c */,
+				B33E473BB7293D39A8B80D762CB8E38A /* aesopt.h */,
+				95DE928E9EA86BFB516FC69C17684286 /* aestab.c */,
+				D716FA0340A74749CC6367F660F1A1D8 /* aestab.h */,
+				742A11A4E33BCA5EE67117E67C17EA64 /* brg_endian.h */,
+				0EAB41EBAE4B0A25A4BD8887A3B5F9D0 /* brg_types.h */,
+				09D4BB45371524CC84D6439CADE9E5F8 /* crypt.c */,
+				2C93E9BC58DC8DDF0EEEA22233BCC25A /* crypt.h */,
+				5F5D8BC016F366B2AE8106D92075F0C9 /* fileenc.c */,
+				A559264200A2B239D2C15DED901BFEEF /* fileenc.h */,
+				EFCD7AFA046263CF481A1F993F9C555F /* hmac.c */,
+				DFA21C1A20C0292E2BB936B5F6589A20 /* hmac.h */,
+				7F1F37B794F9E22775DECCBFF4B1565B /* ioapi.c */,
+				45AC84A910708636325524A1E4C41E21 /* ioapi.h */,
+				6B95F5DF4AC98A450243B90AAB703D8B /* ioapi_buf.c */,
+				6912267B3CDE6CA4FC24D6EE503C251A /* ioapi_buf.h */,
+				569910F2F1DD9C49F315BE57836E767C /* ioapi_mem.c */,
+				0F5CF3F9BBCBD6A6A3541D8EFAAC7523 /* ioapi_mem.h */,
+				9F9F2648ACCA0FFED003531C0F317A34 /* minishared.c */,
+				E8F2646A61B11DBDDC0EABBCD3E40F09 /* minishared.h */,
+				D168D4260BE2EBACBFFC4BF9AB5B9FBA /* prng.c */,
+				D42C2FD79CF75E62B9EDDE4CF902FD81 /* prng.h */,
+				2C7F5F5A3900DCEE65873B977CF56C01 /* pwd2key.c */,
+				4DCFC74D1ED1CF22BF2C2A6BC55423BA /* pwd2key.h */,
+				6255B949633610D8D889A9BF181EBE1C /* sha1.c */,
+				EC88D228D284372AF58302C313430DE4 /* sha1.h */,
+				B9851345EC169D2E83C14253B3E06BDA /* SSZipArchive.h */,
+				00A452DF68EFC8FE61E1A7AE4384E867 /* SSZipArchive.m */,
+				8F64E0604B2B6398E3ABAA462B976A9C /* SSZipCommon.h */,
+				6938878AA5E5EC9350DC6908DFC42786 /* unzip.c */,
+				8BDCD98D127438AD71B1E513B9108F2F /* unzip.h */,
+				D716B12EA860C6948AEE8B0A1F488F3E /* zip.c */,
+				7ABF11714F6352211D29C1B37A3572E8 /* zip.h */,
+				2F5FBDDCE53E8BFE404EC56E0A16D3A0 /* ZipArchive.h */,
+				A80C725A247AD0C83B962D7A89787CA4 /* Support Files */,
+			);
+			name = SSZipArchive;
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		F23711D148A1B58522286C022FB0C364 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BA0A3A276E6646D6ED1205F115702EF /* Pods-SYZFileManager_Example */,
+				72FD5CBED76B3B5AFF85C042B50B11DB /* Pods-SYZFileManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B9DECFBE4CE6B9B4B903C84541DD225 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1395EB33032A88F29E1A5BD98F97322 /* Pods-SYZFileManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87F4B9A8A3B3CAB74ACA73CCAA3C4F73 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F896817C4D82B3FB1B9B2D450FA57FF3 /* Pods-SYZFileManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8C81089CEB4C0A53B9D9FF9B19D3E7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D0B7EABC4CDA3E2E1495D33C131AF2 /* aes.h in Headers */,
+				EA15FAF4752DF26ABA9EA6C682F7234C /* aes_ni.h in Headers */,
+				636E64F5188F94E4107C3C9513142324 /* aesopt.h in Headers */,
+				CC9149D543BD1F92461CA3473A45D457 /* aestab.h in Headers */,
+				0910B142B83B1A6C4F471B3C29C03B7D /* brg_endian.h in Headers */,
+				C568F2676E766EDC3CB0FBDB74688E94 /* brg_types.h in Headers */,
+				4D08A47E5BD3E3A925A981B8C8D8CCAE /* crypt.h in Headers */,
+				55BEAE066A89AED478FF04F2BF5ACF03 /* fileenc.h in Headers */,
+				3BA7A88E676FE380F0004E2483C4D4A2 /* hmac.h in Headers */,
+				C1A6B9E4A29650B8C2E9041E9D5A97DC /* ioapi.h in Headers */,
+				BE68E01B5D0E62A68F4FA9BDBBC8C625 /* ioapi_buf.h in Headers */,
+				2F32D5F4EE43EB01D6A60AF2FA004B66 /* ioapi_mem.h in Headers */,
+				85A7C625762189240D63345763895A51 /* minishared.h in Headers */,
+				19813FA3C6F665B0FCAD74A2EF771DDA /* prng.h in Headers */,
+				023F3612459E064632069C277DDBC771 /* pwd2key.h in Headers */,
+				0588EF8291B7915D91A05B887DCB4F71 /* sha1.h in Headers */,
+				9E429E09AB760D516A65F1218D267651 /* SSZipArchive-umbrella.h in Headers */,
+				4CDDB75E4021F5C203D8376D316248B6 /* SSZipArchive.h in Headers */,
+				553CEA4B892DF78071DF382CD665A474 /* SSZipCommon.h in Headers */,
+				D9CE8847EC94480C10D6BE331F817C02 /* unzip.h in Headers */,
+				51AC44BC0D9F44C34CDAEA8427745DEB /* zip.h in Headers */,
+				93796836E1133B7E14067AB551DAF24D /* ZipArchive.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EFAB7B2A64DB7A225107C33C4B768C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3240F0215B4E0BD79422DD562F77CDF0 /* SYZFileManager-umbrella.h in Headers */,
+				BE50D99C7B16E801D8EC87AAB8DA2428 /* SYZFileManager.h in Headers */,
+				4AAF3135E6B5EB4F0288E8E61C8C320D /* SYZFileModuleName.h in Headers */,
+				ADB1AB729CB387CEA0BF07ABC5BF3958 /* SYZZipManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F90181FE9A1036FEB5FEA7E8E2078DEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E47ED366EE5AFB2A1AAD3C285A6BA4A0 /* NSArray+SYZArrayAdd.h in Headers */,
+				17856BDFB0DEC85825848A45EE017B31 /* NSAttributedString+SYZAdditon.h in Headers */,
+				FC50B89DECF1E1AFD43AB1CB3BB1E340 /* NSBundle+SYZBundle.h in Headers */,
+				4AEFB4BE293AC70F6B27E3AE2ED76268 /* NSData+SYZFoundationAdd.h in Headers */,
+				53D0EC6BDE3DD425C243ADC0BF4CE211 /* NSDate+SYZDate.h in Headers */,
+				195FC60BB6305E73340F422CFD579869 /* NSDate+SYZTimeStamp.h in Headers */,
+				5BCA00380F55DD96324E9B8B5C3FEABC /* NSDateFormatter+SYZFoundationAdd.h in Headers */,
+				DDC14B4937C43CF815964817CD9E87FA /* NSDictionary+SYZDictionary.h in Headers */,
+				30FAF904DFFAAC6CC8CD3805496B3213 /* NSException+SYZException.h in Headers */,
+				9E821A30182410044C1C69EC78868396 /* NSFileManager+SYZFoundationAdd.h in Headers */,
+				64D18632479DFBAECE2CE9B881D7FFD0 /* NSHTTPCookieStorage+SYZFoundationAdd.h in Headers */,
+				C60A15D38D23D5D23468E36BEBA9A3C4 /* NSJSONSerialization+SYZUIBaseKitAdd.h in Headers */,
+				8DA3634F542EA3D3F7270DB60C2F94EF /* NSMutableArray+SYZMutableArrayAdd.h in Headers */,
+				5CDC04261754C02BBA873F6873232758 /* NSMutableAttributedString+SYZAdditon.h in Headers */,
+				E2334456EF5955C4941671A6503BA0C0 /* NSNumber+SYZNumber.h in Headers */,
+				804848D7B44FE6FEE0F62D8D06A9A4CA /* NSObject+SYZObject.h in Headers */,
+				FB623E5F6DF2D8AE225B992D5322D52D /* NSScanner+SYZFoundationAdd.h in Headers */,
+				352BB4D8B41DD8265C7039F6044D56B9 /* NSSet+SYZFoundationAdd.h in Headers */,
+				14AAA2FC9BCA9EC13CD022999D5E5A21 /* NSString+SYZString.h in Headers */,
+				30709079A54AB3649C19D7C64390B14C /* NSTimer+SYZTimer.h in Headers */,
+				8AA36E841390CB9BCDCDAB3733ABC80E /* NSURL+SYZURL.h in Headers */,
+				3A2F48895A025BF2F932CA6C7D9348A2 /* SYZDate.h in Headers */,
+				11508780EBBA9B9C8283927A18D54E2D /* SYZDateEnum.h in Headers */,
+				4C7E8A45ED033C72A455D2120E7E6CAC /* SYZFoundationMacros.h in Headers */,
+				DA368C3BD516346A1673E2614B8FF102 /* SYZFoundationShorthandMarcos.h in Headers */,
+				73E3FAB128CCE2EE60FFA12B562BAF3A /* SYZTimerProxy.h in Headers */,
+				A1BD760561EF4BAE2065DA64820B1986 /* SYZUIBasekit-umbrella.h in Headers */,
+				C0684FEFAE217B4F555384E8C1417946 /* SYZUIBasekit.h in Headers */,
+				4D31BEB6FEBE08B043DB059158519C58 /* SYZWeakObject.h in Headers */,
+				4D177470E1E8B49A622CB9AB98875964 /* UIApplication+SYZFoundation.h in Headers */,
+				C637983ADBB7BA5530BB24D237F35329 /* UIDevice+SYZDevice.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		19CB1EEB41268358F80065C8D9EC7F22 /* SSZipArchive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D21CD3A15B9E5AC83AC49A2742B2AAE0 /* Build configuration list for PBXNativeTarget "SSZipArchive" */;
+			buildPhases = (
+				E8C81089CEB4C0A53B9D9FF9B19D3E7B /* Headers */,
+				461003BD35CF476EC8D40C67877768FE /* Sources */,
+				5DE71F0421FB0666F061F003EF7781E9 /* Frameworks */,
+				FD794513AE023B30501E6FBC4AD1573D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSZipArchive;
+			productName = SSZipArchive;
+			productReference = 9A114343BB284BF1AC3C66251B93B147 /* SSZipArchive.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6E560402F6A4DF352F7E5EE805A4C432 /* SYZUIBasekit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9641CF02F089BB10E44E5A7ADCB148DC /* Build configuration list for PBXNativeTarget "SYZUIBasekit" */;
+			buildPhases = (
+				F90181FE9A1036FEB5FEA7E8E2078DEF /* Headers */,
+				AA07ECB6152288637CDF5677A16ABDE5 /* Sources */,
+				9B5A7DCB55B8EF169C52A72FAD8C916D /* Frameworks */,
+				4D64D8401104CB9858B7791DEE456CFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SYZUIBasekit;
+			productName = SYZUIBasekit;
+			productReference = D817131506AFE1F84BE9C93008CA558B /* SYZUIBasekit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E58927E1D85828AD257D824605C2F16 /* Pods-SYZFileManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C1F6ACCDADF7A182EB1AE9967F6ED93 /* Build configuration list for PBXNativeTarget "Pods-SYZFileManager_Example" */;
+			buildPhases = (
+				2B9DECFBE4CE6B9B4B903C84541DD225 /* Headers */,
+				0995AEFF2B1A7C8C578F494938419B82 /* Sources */,
+				102BFC42AE443A049DE7B28757AD91F0 /* Frameworks */,
+				924AF9EB0F6A8532F35F824226CCDFB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				379F0DEE0E8A240A22BC4BED6681C1E2 /* PBXTargetDependency */,
+				489D9926E0511D89EAE83934973873C0 /* PBXTargetDependency */,
+				08D1B14308C84E7706224918E61C96A2 /* PBXTargetDependency */,
+			);
+			name = "Pods-SYZFileManager_Example";
+			productName = "Pods-SYZFileManager_Example";
+			productReference = 2ABE685D6DA4EC53D077E9B9966148BD /* Pods_SYZFileManager_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8E2EE4442D30DED711BCC36DBF357C3 /* SYZFileManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650F5D39ABEA64D4B92676F5483CC5EA /* Build configuration list for PBXNativeTarget "SYZFileManager" */;
+			buildPhases = (
+				F6EFAB7B2A64DB7A225107C33C4B768C /* Headers */,
+				C7A3BD8A47E1808D1887D2B73BA370AC /* Sources */,
+				08B7C03479D23D01B56B1D3D281DE60A /* Frameworks */,
+				046B86952AEF6DD68B2DE1B094565876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BC69F62186616BADD4AEEEB2CBCAA2F /* PBXTargetDependency */,
+				0BC4B3B000C2FD97062989B2E69097DB /* PBXTargetDependency */,
+			);
+			name = SYZFileManager;
+			productName = SYZFileManager;
+			productReference = D1B745998B873C3211BADFDF628D6B0F /* SYZFileManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7ECD0F2B3857C2C0DCE4A35AF1F9E3A /* Pods-SYZFileManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 831A8427D3885E20D38D5FE5CC7C3A2D /* Build configuration list for PBXNativeTarget "Pods-SYZFileManager_Tests" */;
+			buildPhases = (
+				87F4B9A8A3B3CAB74ACA73CCAA3C4F73 /* Headers */,
+				F88E7B5E1A51ADAD37EB55584094C9CB /* Sources */,
+				F163E9AE37B686C2965091CCF08DD766 /* Frameworks */,
+				AE6428676FFB866626980B61DD5D1548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F736724E714DE9C6A0CA3933B2818D45 /* PBXTargetDependency */,
+			);
+			name = "Pods-SYZFileManager_Tests";
+			productName = "Pods-SYZFileManager_Tests";
+			productReference = 0A19918498B4A489ADDA3315D179DA4F /* Pods_SYZFileManager_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7FA539EF206AA647AA7CC75D808D7251 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E58927E1D85828AD257D824605C2F16 /* Pods-SYZFileManager_Example */,
+				F7ECD0F2B3857C2C0DCE4A35AF1F9E3A /* Pods-SYZFileManager_Tests */,
+				19CB1EEB41268358F80065C8D9EC7F22 /* SSZipArchive */,
+				B8E2EE4442D30DED711BCC36DBF357C3 /* SYZFileManager */,
+				6E560402F6A4DF352F7E5EE805A4C432 /* SYZUIBasekit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046B86952AEF6DD68B2DE1B094565876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D64D8401104CB9858B7791DEE456CFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		924AF9EB0F6A8532F35F824226CCDFB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6428676FFB866626980B61DD5D1548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD794513AE023B30501E6FBC4AD1573D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0995AEFF2B1A7C8C578F494938419B82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC4CD57B9BCD633106AA553F288EC44 /* Pods-SYZFileManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461003BD35CF476EC8D40C67877768FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6911703D75FCF63E680FCB29CB8A3A32 /* aes_ni.c in Sources */,
+				ED3B5F22DDA2ACDA4D089097383F52B9 /* aescrypt.c in Sources */,
+				611918AF00F713909D3208BFEA8AD4E7 /* aeskey.c in Sources */,
+				29C6D37229F43A632B27C13F92AB7A02 /* aestab.c in Sources */,
+				D870F93FCD0F4164085093A7867CC577 /* crypt.c in Sources */,
+				9BF6128F15DE0ADC5DDC5AFB7B4F0BE0 /* fileenc.c in Sources */,
+				9060590BF86D394060A81E929C720F32 /* hmac.c in Sources */,
+				F5957FCCFB4AE02CCCD8FB61EE49B876 /* ioapi.c in Sources */,
+				E47D8BEDB5DFBA383CE5AE3C8F002110 /* ioapi_buf.c in Sources */,
+				43326C1477D0479219BDC228F2920BA4 /* ioapi_mem.c in Sources */,
+				27E50C5A02EB4F7FA1DEC6EAC81BBAEF /* minishared.c in Sources */,
+				DB503C38382D8B7C074AEB7AFF5213C5 /* prng.c in Sources */,
+				E33EE21BC685FE4F0A83AAEE4948FE99 /* pwd2key.c in Sources */,
+				EB2F703A2C7F54F212C2AA611D0C2B5C /* sha1.c in Sources */,
+				DE1A0F1EAC6F236A41540C979E618533 /* SSZipArchive-dummy.m in Sources */,
+				D21E72075E6F4A511C20AA5610E0DA5E /* SSZipArchive.m in Sources */,
+				8177CF7649B6B4306946A00B2D02C1F7 /* unzip.c in Sources */,
+				282E91E191E3A12C6670EAF5C405AAE7 /* zip.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA07ECB6152288637CDF5677A16ABDE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DCBABF423DA83DF7F8E63A52D4D85F6 /* NSArray+SYZArrayAdd.m in Sources */,
+				AE6A13EA4A6A1C1DD5B1F31543DE8D29 /* NSAttributedString+SYZAdditon.m in Sources */,
+				1E25EDE48DC49735074CD05B50263DAC /* NSBundle+SYZBundle.m in Sources */,
+				8D96EB96EA1A7D16DD6BF3FA8059E174 /* NSData+SYZFoundationAdd.m in Sources */,
+				46EAEE3F13DE4A2604E2DAD9E17D4731 /* NSDate+SYZDate.m in Sources */,
+				52774FE0D0AD252BC1D2043F632CD662 /* NSDate+SYZTimeStamp.m in Sources */,
+				D17B7345EB49AA59C1896A203D98EE9C /* NSDateFormatter+SYZFoundationAdd.m in Sources */,
+				C40EA9F61A4ADAD61740EFDF97F44398 /* NSDictionary+SYZDictionary.m in Sources */,
+				487631065009D34F074EE49891B0E39E /* NSException+SYZException.m in Sources */,
+				750E4008531C0CA2D655691F7A20EE25 /* NSFileManager+SYZFoundationAdd.m in Sources */,
+				4E54679D09EE7EF53479A00F4CC10A89 /* NSHTTPCookieStorage+SYZFoundationAdd.m in Sources */,
+				5ADE6BF7B8FB38A8B8F1F54246433E6C /* NSJSONSerialization+SYZUIBaseKitAdd.m in Sources */,
+				D22DBA8AD79AD5E851DD444423F816FC /* NSMutableArray+SYZMutableArrayAdd.m in Sources */,
+				F667804DAA6972BA17BA24D282D0FA06 /* NSMutableAttributedString+SYZAdditon.m in Sources */,
+				458659C79B68A13264E2224DC942315C /* NSNumber+SYZNumber.m in Sources */,
+				8F21BF1C1CFAF784D7F129C841030721 /* NSObject+SYZObject.m in Sources */,
+				715D49EF112E23D4A363D49C1000BB04 /* NSScanner+SYZFoundationAdd.m in Sources */,
+				91D875ED41B698AB4AA3A6771C71948A /* NSSet+SYZFoundationAdd.m in Sources */,
+				521EA23FED0588A2C62523458421415A /* NSString+SYZString.m in Sources */,
+				D29177A2D5445058599F1F0E8EE518DF /* NSTimer+SYZTimer.m in Sources */,
+				322228FD04CD7FE238699E4F0504845F /* NSURL+SYZURL.m in Sources */,
+				83273B9390C73731DFDC3ED4B4E9D3D7 /* SYZTimerProxy.m in Sources */,
+				2D0A2F9C3C03C6D2C4D9A369D99EA8D9 /* SYZUIBasekit-dummy.m in Sources */,
+				3E40127DC915CD5CE0F5AECA3466B8F8 /* SYZWeakObject.m in Sources */,
+				2CBDC01B9F015F4CE0B16CADF917A078 /* UIApplication+SYZFoundation.m in Sources */,
+				616390444CC9543435538B75107B12FB /* UIDevice+SYZDevice.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A3BD8A47E1808D1887D2B73BA370AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DC1987AB60A38AC262DED780CD35C38 /* SYZFileManager-dummy.m in Sources */,
+				1A3C8BDA328BE03101F3A894F28156FB /* SYZFileManager.m in Sources */,
+				20238593BC799BB7F7B78C7EECB01B77 /* SYZFileModuleName.m in Sources */,
+				3339A419C1A6131D07588FA49CA55644 /* SYZZipManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F88E7B5E1A51ADAD37EB55584094C9CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF6F235E6B563BC35BA3011AE882627 /* Pods-SYZFileManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08D1B14308C84E7706224918E61C96A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SYZUIBasekit;
+			target = 6E560402F6A4DF352F7E5EE805A4C432 /* SYZUIBasekit */;
+			targetProxy = 3A8663EEAE2F1E54DFBB710496EA1F34 /* PBXContainerItemProxy */;
+		};
+		0BC4B3B000C2FD97062989B2E69097DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SYZUIBasekit;
+			target = 6E560402F6A4DF352F7E5EE805A4C432 /* SYZUIBasekit */;
+			targetProxy = 50CD777F2A79350E7B73D30B3BB544FC /* PBXContainerItemProxy */;
+		};
+		379F0DEE0E8A240A22BC4BED6681C1E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSZipArchive;
+			target = 19CB1EEB41268358F80065C8D9EC7F22 /* SSZipArchive */;
+			targetProxy = 11723A4931D8D3387D26E61BF883D829 /* PBXContainerItemProxy */;
+		};
+		489D9926E0511D89EAE83934973873C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SYZFileManager;
+			target = B8E2EE4442D30DED711BCC36DBF357C3 /* SYZFileManager */;
+			targetProxy = 0C6B21A8DF1E4DA9832058DCEDC59834 /* PBXContainerItemProxy */;
+		};
+		7BC69F62186616BADD4AEEEB2CBCAA2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSZipArchive;
+			target = 19CB1EEB41268358F80065C8D9EC7F22 /* SSZipArchive */;
+			targetProxy = D08D3C0137C14336F8495E13752698AE /* PBXContainerItemProxy */;
+		};
+		F736724E714DE9C6A0CA3933B2818D45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SYZFileManager_Example";
+			target = 7E58927E1D85828AD257D824605C2F16 /* Pods-SYZFileManager_Example */;
+			targetProxy = 2885A380C51D8822210DB5E991A3DC16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		1119E9096510D50B765648891F7F81DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D3146A3AAA5C5B9B35084D8FE93257C /* Pods-SYZFileManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYZFileManager_Tests/Pods-SYZFileManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYZFileManager_Tests/Pods-SYZFileManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2B3DDF2CAA7878B684D7A5AE516E34B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 552FC540D5AAD92CECAE3077C0501F5B /* SYZFileManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYZFileManager/SYZFileManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYZFileManager/SYZFileManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYZFileManager/SYZFileManager.modulemap";
+				PRODUCT_MODULE_NAME = SYZFileManager;
+				PRODUCT_NAME = SYZFileManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D3A5FA2F397F126AC96A12BE177AD30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD88901E55F92B4D245774F7864DD0CF /* Pods-SYZFileManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYZFileManager_Example/Pods-SYZFileManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYZFileManager_Example/Pods-SYZFileManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		43E236AD164A2A402478ECC9EFDAC344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 689B51E861544E5D35CC8306C39EC675 /* SYZUIBasekit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYZUIBasekit/SYZUIBasekit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYZUIBasekit/SYZUIBasekit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYZUIBasekit/SYZUIBasekit.modulemap";
+				PRODUCT_MODULE_NAME = SYZUIBasekit;
+				PRODUCT_NAME = SYZUIBasekit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		548818962E3DDF3AAC14EE8FEC12C489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21CCCC2A0359870ECA5A1BB3E7A8706E /* Pods-SYZFileManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYZFileManager_Tests/Pods-SYZFileManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYZFileManager_Tests/Pods-SYZFileManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		922E0513C93F8D28068258B873BED3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A64AB7B600A0CAC92CC073A272410A94 /* SSZipArchive.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSZipArchive/SSZipArchive-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSZipArchive/SSZipArchive.modulemap";
+				PRODUCT_MODULE_NAME = SSZipArchive;
+				PRODUCT_NAME = SSZipArchive;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C58598EC1CCAE4CDAF5C100BD2317500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79A457E3495CE16B4E7BF8DEC65A5728 /* Pods-SYZFileManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SYZFileManager_Example/Pods-SYZFileManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SYZFileManager_Example/Pods-SYZFileManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF87F71FE3030A52380129BAC7576338 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A64AB7B600A0CAC92CC073A272410A94 /* SSZipArchive.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SSZipArchive/SSZipArchive-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSZipArchive/SSZipArchive-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SSZipArchive/SSZipArchive.modulemap";
+				PRODUCT_MODULE_NAME = SSZipArchive;
+				PRODUCT_NAME = SSZipArchive;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E114DB604A1820B693231AF55E4B2A79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 689B51E861544E5D35CC8306C39EC675 /* SYZUIBasekit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYZUIBasekit/SYZUIBasekit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYZUIBasekit/SYZUIBasekit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYZUIBasekit/SYZUIBasekit.modulemap";
+				PRODUCT_MODULE_NAME = SYZUIBasekit;
+				PRODUCT_NAME = SYZUIBasekit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3F4AAAEA1331FFD425BDF0923C216DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 552FC540D5AAD92CECAE3077C0501F5B /* SYZFileManager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SYZFileManager/SYZFileManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SYZFileManager/SYZFileManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SYZFileManager/SYZFileManager.modulemap";
+				PRODUCT_MODULE_NAME = SYZFileManager;
+				PRODUCT_NAME = SYZFileManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		650F5D39ABEA64D4B92676F5483CC5EA /* Build configuration list for PBXNativeTarget "SYZFileManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3DDF2CAA7878B684D7A5AE516E34B4 /* Debug */,
+				F3F4AAAEA1331FFD425BDF0923C216DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C1F6ACCDADF7A182EB1AE9967F6ED93 /* Build configuration list for PBXNativeTarget "Pods-SYZFileManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3A5FA2F397F126AC96A12BE177AD30 /* Debug */,
+				C58598EC1CCAE4CDAF5C100BD2317500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		831A8427D3885E20D38D5FE5CC7C3A2D /* Build configuration list for PBXNativeTarget "Pods-SYZFileManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				548818962E3DDF3AAC14EE8FEC12C489 /* Debug */,
+				1119E9096510D50B765648891F7F81DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9641CF02F089BB10E44E5A7ADCB148DC /* Build configuration list for PBXNativeTarget "SYZUIBasekit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43E236AD164A2A402478ECC9EFDAC344 /* Debug */,
+				E114DB604A1820B693231AF55E4B2A79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D21CD3A15B9E5AC83AC49A2742B2AAE0 /* Build configuration list for PBXNativeTarget "SSZipArchive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				922E0513C93F8D28068258B873BED3DC /* Debug */,
+				DF87F71FE3030A52380129BAC7576338 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
